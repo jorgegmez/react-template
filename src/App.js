@@ -27,10 +27,10 @@ class App extends Component {
                 <a className="nav-link" href="#">Features</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Pricing</a>
+                <a className="nav-link" href="#">Reviews</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link disabled" href="#">Disabled</a>
+                <a className="nav-link " href="#">Download</a>
               </li>
             </ul>
           </div>

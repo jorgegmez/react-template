@@ -6,7 +6,43 @@
   .FirstScreen-div{
     width: 100% !important;
   }
+
+  .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
+    font-size: 0.6em;
+  }
+
+  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+      font-size: 0.7em;
+  }
+
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+      font-size: 0.6em;
+  }
+
+  .FirstScreen-title{
+    font-size: 1em;
+  }
+  .FirstScreen-div{
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    font-size: 0.6em;
+  }
 }
+
+.FirstScreen-div{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.navbar{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 
 .FirstScreen-div{
   width: 100%;
@@ -16,22 +52,50 @@
   background-image: url('./img/bgFS.png');
 }
 
-.navbar{
-  background-color: #648cff;
+.Left-div{
+  width: 50%;
   color: #fff;
+  float: left;
+  display: inline-block;
 }
 
-.navbar > a{
-  color: #fff;
+.Right-div{
+  width: 50%;
+  display: inline-block;
+  float: right;
+}
+
+.Text-left-FS {
+  font-size: 0.5em;
+  line-height: 10px;
+}
+
+.FirstScreen-title{
+  text-align: left;
+}
+
+.navbar{
+  background-color: #648cff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #e1e1e1;
 }
 
 .navbar-expand-lg{
   background-color: #648cff;
-  color: #fff;
 }
 
-.nav-item > a{
-  color: #fff;
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ffffff;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
+  color: #ffff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
+    color: #e1e1e1;
 }
 
 @keyframes App-logo-spin {
