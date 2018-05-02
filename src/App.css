@@ -20,29 +20,94 @@
   }
 
   .FirstScreen-title{
-    font-size: 1em;
+    font-size: 0.7em;
   }
-  .FirstScreen-div{
-    padding-left: 15%;
-    padding-right: 15%;
-  }
-
+ 
   .navbar-toggler:not(:disabled):not(.disabled) {
     cursor: pointer;
     font-size: 0.6em;
   }
+
+  #btn-download{
+    max-width: 30%;
+    font-size: 0.3em;
+    float: left;
+    margin-right: 2.5%;
+  }
+
+  #btn-features{
+    max-width: 30%;
+    font-size: 0.3em;
+    float: left;
+    margin-left: 2.5%;
+  }
+
+  .Text-left-FS {
+    font-size: 0.3em;
+    line-height: 10px;
+  }
+
+  .Img-phone{
+    max-width: 70px;
+    text-align: center
+  }
+
+  .DivRight-circules{
+    text-transform: uppercase;
+    position: absolute;
+  }
+
+  #Circule-sunny{
+    padding: 4%;
+    font-size: 0.3em;
+    border-radius: 100%;
+    background-color: #e67e22;
+    top: 13em;
+    left: 1em;
+    color: #ffff;
+  }
+
+  #Circule-london{
+    background-color: #4466c9;
+    padding: 4%;
+    font-size: 0.3em;
+    border-radius: 100%;
+    top: 11em;
+    right: -0.5em;
+    color: #ffff;
+  }
+
+  #Circule-rio{
+    background-color: #fcec64;
+    padding: 3%;
+    font-size: 0.3em;
+    border-radius: 100%;
+    top: 23em;
+    right: 1.5em;
+    color: #648cff;
+  }
+
+  #Circule-9{
+    background-color: #ffffff;
+    padding: 3% 5%;
+    font-size: 0.3em;
+    border-radius: 100%;
+    top: 2em;
+    right: 2.5em;
+    color: #648cff;
+  }
+
 }
 
 .FirstScreen-div{
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 
 .navbar{
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 12%;
+  padding-right: 12%;
 }
-
 
 .FirstScreen-div{
   width: 100%;
@@ -56,18 +121,27 @@
   width: 50%;
   color: #fff;
   float: left;
-  display: inline-block;
+  margin-top: 2.5em;
+  padding: 0 2% 2% 0;
 }
 
 .Right-div{
   width: 50%;
-  display: inline-block;
   float: right;
+  margin-top: 1.3em;
+  position: relative;
 }
 
-.Text-left-FS {
-  font-size: 0.5em;
-  line-height: 10px;
+.DivCenter{
+  clear: both;
+  width: 5%;
+  margin: auto;
+  padding: 1% 2%;
+  text-align: center;
+  font-size: 0.3em;
+  border-radius: 100%;
+  background-color: #ffff;
+  color: #ff5459;
 }
 
 .FirstScreen-title{
@@ -87,7 +161,7 @@
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
@@ -95,10 +169,14 @@
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
-    color: #e1e1e1;
+  color: #e1e1e1;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Btn-Divlef{
+  display: inline-block;
+}
+
+#btn-download{
+  background-color: #e67e22;
+  color: #fff;
 }
