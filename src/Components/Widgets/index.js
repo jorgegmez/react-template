@@ -6,8 +6,9 @@ import '../../App.css';
 class Widgets extends Component {
   render () {
     return (
-      <div className="AddTask-form">
-        <h4>This is Widgets component inside of Features component!</h4>
+      <div className="Widgets-div">
+        <h1 className="Widgets-title">Simple widgets</h1>
+        <h2 className="Widgets-subtitle">Drag and Drop</h2>
       </div>
     );
   }
