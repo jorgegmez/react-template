@@ -21,12 +21,12 @@ class Features extends Component {
             <div className="ColDiv-1">
               <img src={iconD} className="iconD" alt="icon"/>
             </div>
-            <div className="ColDiv-2">
+            <div>
               <h3 className="Title-columns">Usability </h3>
               <p className="Text-columns">Sometimes the simplest things are the hardest to find. So we createda new line for everyday life.</p>
             </div>
           </div>
-          <div className="col-sm-4 divCol4">
+          <div className="divCol4">
             <div className="ColDiv-1">
               <img src={iconP} className="iconP" alt="icon"/>
             </div>
@@ -35,7 +35,7 @@ class Features extends Component {
               <p className="Text-columns">Sometimes the simplest things are the hardest to find. So we createda new line for everyday life.</p>
             </div>
           </div>
-          <div className="col-sm-4 divCol4">
+          <div className="divCol4">
             <div className="ColDiv-1">
               <img src={iconC} className="iconC" alt="icon"/>
             </div>

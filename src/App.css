@@ -5,6 +5,8 @@
 @media screen and (max-width : 780px) {
   .FirstScreen-div{
     width : 100% !important;
+    height            : 250px;
+    background-size   : contain;
   }
 
   .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
@@ -140,92 +142,71 @@
   }
 
   .divCol4{
-    width   : 33%;
+    width   : 33% !important;
     padding : 1%;
     display : inline-block;
   }
 
   /*Widgets Styles*/
   .Widgets-title{
-    font-size      : 0.7em;
+    font-size      : 0.7em !important;
     color          : #648cff;
     text-transform : uppercase;
     margin-top     : 1.5em;
   }
 
   .Widgets-subtitle{
-    font-size : 0.3em;
+    font-size : 0.3em !important;
     color     : #999999;
   }
 
   /*Screenshots Styles*/
   .Screenshots-title{
-    font-size      : 0.7em;
+    font-size      : 0.7em !important;
     color          : #648cff;
     text-transform : uppercase;
   }
 
   .Screenshots-subtitle{
-    font-size : 0.3em;
+    font-size : 0.3em !important;
     color     : #999999;
   }
 
   .Screenshot-divLeft{
-    width      : 50%;
+    width      : 50% !important;
     position   : relative;
     margin-top : 1.5em;
     display    : inline-block
   }
 
   .Screenshot-divRight{
-    width      : 50%;
+    width      : 50% !important;
     margin-top : 1.5em;
     display    : inline-block;
   }
 
   .Img-screenCloudy{
-    max-width : 70px;
+    max-width : 70px !important;
     position  : relative;
     z-index   : 5;
   }
 
   .Text-vertical{
-    -webkit-transform : rotate(90deg);
-    -moz-transform    : rotate(90deg);
-    color             : #f4f4f7;
-    font-size         : 3em;
-    position          : absolute;
-    left              : 0.9em;
-    top               : 0.7em;
-    z-index           : 1;
+    font-size         : 3em !important;
   }
 
   .Text-verticalSunny{
-    -webkit-transform : rotate(90deg);
-    -moz-transform    : rotate(90deg);
-    color             : #f4f4f7;
-    font-size         : 3em;
-    position          : absolute;
-    top               : 0.7em;
-    left              : 1.1em;
-    z-index           : 1;
+    font-size : 3em !important;
   }
 
   .Text-verticalRainy{
-    -webkit-transform : rotate(90deg);
-    -moz-transform    : rotate(90deg);
-    color             : #f4f4f7;
-    font-size         : 3em;
-    position          : absolute;
-    top               : 0.7em;
-    left              : 1.2em;
-    z-index           : 1;
+    font-size         : 3em !important;
   }
 
   .Cloudy-circule{
     background-color : #fcec64;
     padding          : 3% 1%;
-    font-size        : 0.3em;
+    font-size        : 0.3em !important;
     border-radius    : 100%;
     position         : absolute;
     z-index          : 6;
@@ -283,7 +264,7 @@
   }
 
   .Circule-9-2{
-    width            : 10%;
+    width            : 10% !important;
     background-color : #7693c8;
     padding          : 3% 3%;
     font-size        : 0.3em;
@@ -322,11 +303,11 @@
   }
 
   .iconCloudy{
-    width : 30px;
+    width : 30px !important;
   }
 
   .iconSunny{
-    width         : 25px;
+    width         : 25px !important;
     margin-bottom : 0.3em;
   }
 
@@ -353,7 +334,7 @@
   }
 
   .Img-screenSunny{
-    max-width : 70px;
+    max-width : 70px !important;
     position  : relative;
     z-index   : 5;
   }
@@ -372,12 +353,12 @@
   }
 
   .Reviews-divLeft{
-    width   : 50%;
+    width   : 50% !important;
     padding : 2%;
   }
 
   .Reviews-divRight{
-    width   : 50%;
+    width   : 50% !important;
     padding : 2%;
   }
 
@@ -404,12 +385,12 @@
 
   /*Download Styles*/
   .Download-divLeft{
-    width        : 48%;
+    width        : 48% !important;
     padding-left : 12%;
   }
 
   .Download-divRight{
-    width    : 50%;
+    width    : 50% !important;
     position : relative;
   }
 
@@ -422,28 +403,28 @@
   }
 
   .Download-text{
-    width: 80%;
+    width: 80% !important;
     font-size  : 0.2em;
     color      : #ffff;
     text-align : left;
   }
 
   .Download-app{
-    width  : 45px;
+    width  : 45px !important;
     float  : left;
     margin : 0.2%;
-    padding-bottom: 10%;
+    padding-bottom: 10% !important;
   }
 
   .Download-phoneLeft{
-    width    : 75px;
+    width    : 75px !important;
     position : absolute;
     top      : 2.9em;
     left     : 0.5em;
   }
 
   .Download-phoneClear{
-    width    : 75px;
+    width    : 75px !important;
     position : absolute;
     z-index  : 4;
     top      : 1.2em;
@@ -451,16 +432,54 @@
   }
 
   .Download-phoneRight{
-    width    : 75px;
+    width    : 75px !important;
     position : absolute;
     top      : 2.9em;
     left     : 5.5em;
   }
 
+  /*Footer styles*/
+  .Footer-div{
+    width: 100% !important;
+    background-color: #353854;
+  }
+
+  #Footer-brand{
+    color   : #648cff;
+    display: inline-block;
+    font-size: 0.5em;
+  }
+
+  #Fun-text{
+    color: #fc6a42;
+  }
+
+  .Footer-navBar{
+    width: 100%;
+    float: left;
+  }
+
+  .Links-container{
+    display: inline-block;
+  }
+
+  .Nav-item{
+    display: inline-block;
+    font-size: 0.3em;
+    color: #b5b5c8;
+  }
+
+  #Footer-navBar2{
+    display: inline-block;
+  }
 }
 
 /*FirstScreen Styles*/
 .FirstScreen-div{
+  width: 100%;
+  background-size   : contain;
+  background-repeat : no-repeat;
+  background-image  : url('./img/bgFS.png');
   padding-left  : 12%;
   padding-right : 12%;
 }
@@ -468,14 +487,6 @@
 .navbar{
   padding-left  : 12%;
   padding-right : 12%;
-}
-
-.FirstScreen-div{
-  width             : 100%;
-  height            : 250px;
-  background-size   : contain;
-  background-repeat : no-repeat;
-  background-image  : url('./img/bgFS.png');
 }
 
 .Left-div{
@@ -509,6 +520,16 @@
   text-align : left;
 }
 
+.Btn-Divlef{
+  display : inline-block;
+}
+
+#btn-download{
+  background-color : #e67e22;
+  color            : #fff;
+}
+
+/* Nav bar*/
 .navbar{
   background-color : #648cff;
 }
@@ -533,14 +554,7 @@
   color : #e1e1e1;
 }
 
-.Btn-Divlef{
-  display : inline-block;
-}
-
-#btn-download{
-  background-color : #e67e22;
-  color            : #fff;
-}
+/* Fin Nav bar*/
 
 /* Features Styles*/
 .Features-div{
@@ -548,9 +562,83 @@
   padding-right : 12%;
 }
 
+.divCol4{
+  width: 33%;
+}
+
+.Features-title{
+  font-size      : 1.5em;
+  color          : #648cff;
+  text-transform : uppercase;
+}
+
+.Features-subtitle{
+  font-size : 1em;
+  color     : #999999;
+}
+
 /*Widgets Styles*/
+.Widgets-title{
+  color          : #648cff;
+  text-transform : uppercase;
+  font-size: 1.5em;
+  margin-top: 1.5em;
+}
+
+.Widgets-subtitle{
+  color     : #999999;
+  font-size: 1em;
+}
 
 /*Screenshot Styles*/
+.Screenshots-title{
+  font-size      : 1.5em;
+  color          : #648cff;
+  text-transform : uppercase;
+  margin-top: 1.5em;
+}
+
+.Screenshots-subtitle{
+  color     : #999999;
+  font-size: 1em;
+}
+
+.Img-screenCloudy{
+  width: 250px;
+}
+
+.Text-vertical{
+  -webkit-transform : rotate(90deg);
+  -moz-transform    : rotate(90deg);
+  color             : #f4f4f7;
+  font-size         : 3em;
+  position          : absolute;
+  left              : 0.9em;
+  top               : 0.7em;
+  z-index           : 1;
+}
+
+.Text-verticalSunny{
+  -webkit-transform : rotate(90deg);
+  -moz-transform    : rotate(90deg);
+  color             : #f4f4f7;
+  font-size         : 3em;
+  position          : absolute;
+  top               : 0.7em;
+  left              : 1.1em;
+  z-index           : 1;
+}
+
+.Text-verticalRainy{
+  -webkit-transform : rotate(90deg);
+  -moz-transform    : rotate(90deg);
+  color             : #f4f4f7;
+  font-size         : 3em;
+  position          : absolute;
+  top               : 0.7em;
+  left              : 1.2em;
+  z-index           : 1;
+}
 
 /*Reviews Styles*/
 .Reviews-div{
@@ -563,6 +651,39 @@
 .DownLoadComp-div{
   width            : 100%;
   background-color : #648cff;
+}
+
+/*Footer Styles*/
+.Footer-div{
+  width: 100% !important;
+  background-color: #353854;
+}
+
+#Footer-brand{
+  color   : #648cff;
+  display: inline-block;
+}
+
+#Fun-text{
+  color: #fc6a42;
+}
+
+.Footer-navBar{
+  width: 100%;
+  float: left;
+}
+
+.Links-container{
+  display: inline-block;
+}
+
+.Nav-item{
+  display: inline-block;
+  color: #b5b5c8;
+}
+
+#Footer-navBar2{
+  display: inline-block;
 }
 
 
