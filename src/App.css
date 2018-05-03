@@ -373,12 +373,36 @@
 
   .Reviews-divLeft{
     width: 50%;
+    padding: 2%;
   }
 
   .Reviews-divRight{
     width: 50%;
+    padding: 2%;
   }
 
+  .Opening-quotes{
+    color: #648cff;
+    font-size: 3em;
+    text-align: left;
+    margin-bottom: -0.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .Closing-quotes{
+    color: #648cff;
+    font-size: 3em;
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .Reviews-text{
+    margin: 0;
+    font-size: 0.5em;
+    text-align: left;
+  }
+
+  /*Download Styles*/
 }
 
 /*FirstScreen Styles*/
@@ -472,10 +496,16 @@
 
 /*Widgets Styles*/
 
+/*Screenshot Styles*/
 
-/**/
+/*Reviews Styles*/
 .Reviews-div{
   padding-left  : 12%;
   padding-right : 12%;
+  margin-top: 2.5em;
 }
+
+/*Download Styles*/
+
+
 
