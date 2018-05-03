@@ -1,253 +1,481 @@
 .App {
-  text-align: center;
+  text-align : center;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width : 480px) {
   .FirstScreen-div{
-    width: 100% !important;
+    width : 100% !important;
   }
 
   .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
-    font-size: 0.6em;
+    font-size : 0.6em;
   }
 
   .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-      font-size: 0.7em;
+      font-size : 0.7em;
   }
 
   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
-      font-size: 0.6em;
+      font-size : 0.6em;
   }
 
   .FirstScreen-title{
-    font-size: 0.7em;
+    font-size : 0.7em;
   }
  
   .navbar-toggler:not(:disabled):not(.disabled) {
-    cursor: pointer;
-    font-size: 0.6em;
+    cursor    : pointer;
+    font-size : 0.6em;
   }
 
   #btn-download{
-    max-width: 30%;
-    font-size: 0.3em;
-    float: left;
-    margin-right: 2.5%;
+    max-width    : 30%;
+    font-size    : 0.3em;
+    float        : left;
+    margin-right : 2.5%;
   }
 
   #btn-features{
-    max-width: 30%;
-    font-size: 0.3em;
-    float: left;
-    margin-left: 2.5%;
+    max-width   : 30%;
+    font-size   : 0.3em;
+    float       : left;
+    margin-left : 2.5%;
   }
 
   .Text-left-FS {
-    font-size: 0.3em;
-    line-height: 10px;
+    font-size   : 0.3em;
+    line-height : 10px;
   }
 
   .Img-phone{
-    max-width: 70px;
-    text-align: center
+    max-width  : 70px;
+    text-align : center
   }
 
   .DivRight-circules{
-    text-transform: uppercase;
-    position: absolute;
+    text-transform : uppercase;
+    position       : absolute;
   }
 
   #Circule-sunny{
-    padding: 4%;
-    font-size: 0.3em;
-    border-radius: 100%;
-    background-color: #e67e22;
-    top: 13em;
-    left: 1em;
-    color: #ffff;
+    padding          : 4%;
+    font-size        : 0.3em;
+    border-radius    : 100%;
+    background-color : #e67e22;
+    top              : 13em;
+    left             : 1em;
+    color            : #ffff;
   }
 
   #Circule-london{
-    background-color: #4466c9;
-    padding: 4%;
-    font-size: 0.3em;
-    border-radius: 100%;
-    top: 11em;
-    right: -0.5em;
-    color: #ffff;
+    background-color : #4466c9;
+    padding          : 4%;
+    font-size        : 0.3em;
+    border-radius    : 100%;
+    top              : 11em;
+    right            : -0.5em;
+    color            : #ffff;
   }
 
   #Circule-rio{
-    background-color: #fcec64;
-    padding: 3%;
-    font-size: 0.3em;
-    border-radius: 100%;
-    top: 23em;
-    right: 1.5em;
-    color: #648cff;
+    background-color : #fcec64;
+    padding          : 3%;
+    font-size        : 0.3em;
+    border-radius    : 100%;
+    top              : 23em;
+    right            : 1.5em;
+    color            : #648cff;
   }
 
   #Circule-9{
-    background-color: #ffffff;
-    padding: 3% 5%;
-    font-size: 0.3em;
-    border-radius: 100%;
-    top: 2em;
-    right: 2.5em;
-    color: #648cff;
+    background-color : #ffffff;
+    padding          : 3% 5%;
+    font-size        : 0.3em;
+    border-radius    : 100%;
+    top              : 2em;
+    right            : 2.5em;
+    color            : #648cff;
   }
 
   /*Features Styles*/
   .Features-title{
-    font-size: 0.7em;
-    color: #648cff;
-    text-transform: uppercase;
+    font-size      : 0.7em;
+    color          : #648cff;
+    text-transform : uppercase;
   }
 
   .Features-subtitle{
-    font-size: 0.3em;
-    color: #999999;
+    font-size : 0.3em;
+    color     : #999999;
   }
 
   .iconD{
-    max-width: 30px;
-    margin-bottom: 0.7em;
+    max-width     : 30px;
+    margin-bottom : 0.7em;
   }
 
   .iconP{
-    max-width: 30px;
-    margin-bottom: 0.7em;
+    max-width     : 30px;
+    margin-bottom : 0.7em;
   }
 
   .iconC{
-    max-width: 30px;
-    margin-bottom: 0.7em;
+    max-width     : 30px;
+    margin-bottom : 0.7em;
   }
 
   .Title-columns{
-    font-size: 0.5em;
-    font-weight: bold;
-    color: #353854;
+    font-size   : 0.5em;
+    font-weight : bold;
+    color       : #353854;
   }
 
   .Text-columns{
-    font-size: 0.3em;
-    color: #aeaeae;
+    font-size : 0.3em;
+    color     : #aeaeae;
   }
 
   .row{
-    margin: auto;
+    margin : auto;
   }
 
   .divCol4{
-    width: 33%;
-    padding: 1%;
-    display: inline-block;
+    width   : 33%;
+    padding : 1%;
+    display : inline-block;
   }
 
   /*Widgets Styles*/
   .Widgets-title{
-    font-size: 0.7em;
-    color: #648cff;
-    text-transform: uppercase;
-    margin-top: 1.5em;
+    font-size      : 0.7em;
+    color          : #648cff;
+    text-transform : uppercase;
+    margin-top     : 1.5em;
   }
 
   .Widgets-subtitle{
-    font-size: 0.3em;
-    color: #999999;
+    font-size : 0.3em;
+    color     : #999999;
   }
+
+  /*Screenshots Styles*/
+  .Screenshots-title{
+    font-size      : 0.7em;
+    color          : #648cff;
+    text-transform : uppercase;
+  }
+
+  .Screenshots-subtitle{
+    font-size : 0.3em;
+    color     : #999999;
+  }
+
+  .Screenshot-divLeft{
+    width      : 50%;
+    position   : relative;
+    margin-top : 1.5em;
+    display: inline-block
+  }
+
+  .Screenshot-divRight{
+    width  : 50%;
+    margin-top : 1.5em;
+    display: inline-block;
+  }
+
+  .Img-screenCloudy{
+    max-width : 70px;
+    position  : relative;
+    z-index   : 5;
+  }
+
+  .Text-vertical{
+    -webkit-transform : rotate(90deg);
+    -moz-transform    : rotate(90deg);
+    color             : #f4f4f7;
+    font-size         : 3em;
+    position          : absolute;
+    left              : 0.9em;
+    top               : 0.7em;
+    z-index           : 1;
+  }
+
+  .Text-verticalSunny{
+    -webkit-transform : rotate(90deg);
+    -moz-transform    : rotate(90deg);
+    color             : #f4f4f7;
+    font-size         : 3em;
+    position          : absolute;
+    top               : 0.7em;
+    left              : 1.1em;
+    z-index           : 1;
+  }
+
+  .Text-verticalRainy{
+    -webkit-transform : rotate(90deg);
+    -moz-transform    : rotate(90deg);
+    color             : #f4f4f7;
+    font-size         : 3em;
+    position          : absolute;
+    top               : 0.7em;
+    left              : 1.2em;
+    z-index           : 1;
+  }
+
+  .Cloudy-circule{
+    background-color : #fcec64;
+    padding          : 3% 1%;
+    font-size        : 0.3em;
+    border-radius    : 100%;
+    position         : absolute;
+    z-index          : 6;
+    top              : 7em;
+    left             : 17em;
+  }
+
+  #Cloudy-circule{
+    color : #ffff;
+  }
+
+  .Rainy-circule{
+    background-color: #b8faee;
+    padding          : 3% 1%;
+    font-size        : 0.3em;
+    border-radius    : 100%;
+    position         : absolute;
+    z-index          : 6;
+    top              : 7em;
+    left             : 17em;
+  }
+
+  #Rainy-circule{
+    color : #ffff;
+  }
+
+  .Circule-15{
+    background-color : #6ca3ff;
+    padding          : 3% 3%;
+    font-size        : 0.3em;
+    border-radius    : 100%;
+    position         : absolute;
+    z-index          : 6;
+    top              : 15.4em;
+    left             : 5em;
+  }
+
+  #Circule-15{
+    color : #ffff;
+  }
+
+  .Circule-35{
+    background-color : #fc6a42;
+    padding          : 3% 3%;
+    font-size        : 0.3em;
+    border-radius    : 100%;
+    position         : absolute;
+    z-index          : 6;
+    top              : 15.4em;
+    left             : 5.5em;
+  }
+
+  #Circule-35{
+    color : #ffff;
+  }
+
+  .Circule-9-2{
+    width            : 10%;
+    background-color : #7693c8;
+    padding          : 3% 3%;
+    font-size        : 0.3em;
+    border-radius    : 100%;
+    position         : absolute;
+    z-index          : 6;
+    top              : 15.4em;
+    left             : 5em;
+  }
+
+  #Circule-9-2{
+    background-color : #7693c8;
+    padding          : 1%;
+    font-size        : 0.3em;
+    border-radius    : 100%;
+    position         : absolute;
+    z-index          : 6;
+    top              : 15.4em;
+    left             : 5em;
+    color            : #ffff;
+  }
+
+  .Sunny-circule{
+    background-color : #f2a14e;
+    padding          : 3% 3%;
+    font-size        : 0.3em;
+    border-radius    : 100%;
+    position         : absolute;
+    z-index          : 6;
+    top              : 5.5em;
+    right            : 4.4em;
+  }
+
+  #Sunny-circule{
+    color: #ffff;
+  }
+
+  .iconCloudy{
+    width : 30px;
+  }
+
+  .iconSunny{
+    width         : 25px;
+    margin-bottom : 0.3em;
+  }
+
+  .Title-divRight{
+    color     : #648cff;
+    font-size : 0.7em;
+    text-transform: uppercase;
+  }
+
+  .Text-divRight{
+    font-size  : 0.3em;
+    text-align : left;
+  }
+
+  .Title-divLeft{
+    color     : #648cff;
+    font-size : 0.7em;
+    text-transform: uppercase;
+  }
+
+  .Text-divLeft{
+    font-size  : 0.3em;
+    text-align : left;
+  }
+
+  .Img-screenSunny{
+    max-width : 70px;
+    position  : relative;
+    z-index   : 5;
+  }
+
+  /*Reviews Styles*/
+  .Reviews-title{
+    font-size      : 0.7em;
+    color          : #648cff;
+    text-transform : uppercase;
+    margin-top     : 1.5em;
+  }
+
+  .Reviews-subtitle{
+    font-size : 0.3em;
+    color     : #999999;
+  }
+
+  .Reviews-divLeft{
+    width: 50%;
+  }
+
+  .Reviews-divRight{
+    width: 50%;
+  }
+
 }
 
 /*FirstScreen Styles*/
 .FirstScreen-div{
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left  : 12%;
+  padding-right : 12%;
 }
 
 .navbar{
-  padding-left: 12%;
-  padding-right: 12%;
+  padding-left  : 12%;
+  padding-right : 12%;
 }
 
 .FirstScreen-div{
-  width: 100%;
-  height: 250px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url('./img/bgFS.png');
+  width             : 100%;
+  height            : 250px;
+  background-size   : contain;
+  background-repeat : no-repeat;
+  background-image  : url('./img/bgFS.png');
 }
 
 .Left-div{
-  width: 50%;
-  color: #fff;
-  float: left;
-  margin-top: 2.5em;
-  padding: 0 2% 2% 0;
+  width      : 50%;
+  color      : #fff;
+  float      : left;
+  margin-top : 2.5em;
+  padding    : 0 2% 2% 0;
 }
 
 .Right-div{
-  width: 50%;
-  float: right;
-  margin-top: 1.3em;
-  position: relative;
+  width      : 50%;
+  float      : right;
+  margin-top : 1.3em;
+  position   : relative;
 }
 
 .DivCenter{
-  clear: both;
-  width: 5%;
-  margin: auto;
-  padding: 1% 2%;
-  text-align: center;
-  font-size: 0.3em;
-  border-radius: 100%;
-  background-color: #ffff;
-  color: #ff5459;
+  clear            : both;
+  width            : 5%;
+  margin           : auto;
+  padding          : 1% 2%;
+  text-align       : center;
+  font-size        : 0.3em;
+  border-radius    : 100%;
+  background-color : #ffff;
+  color            : #ff5459;
 }
 
 .FirstScreen-title{
-  text-align: left;
+  text-align : left;
 }
 
 .navbar{
-  background-color: #648cff;
+  background-color : #648cff;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #e1e1e1;
+  color : #e1e1e1;
 }
 
 .navbar-expand-lg{
-  background-color: #648cff;
+  background-color : #648cff;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-  color: #ffffff;
+  color : #ffffff;
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand {
-  color: #ffff;
+  color : #ffff;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link {
-  color: #e1e1e1;
+  color : #e1e1e1;
 }
 
 .Btn-Divlef{
-  display: inline-block;
+  display : inline-block;
 }
 
 #btn-download{
-  background-color: #e67e22;
-  color: #fff;
+  background-color : #e67e22;
+  color            : #fff;
 }
 
 /* Features Styles*/
 .Features-div{
-  padding-left: 12%;
-  padding-right: 12%;
-  border: 1px blue solid;
+  padding-left  : 12%;
+  padding-right : 12%;
 }
 
 /*Widgets Styles*/
+
+
+/**/
+.Reviews-div{
+  padding-left  : 12%;
+  padding-right : 12%;
+}
 

@@ -8,7 +8,7 @@ import '../../App.css';
 
 // Components
 import Widgets from '../Widgets';
-import Screenshots from '../Screenshots';
+import Screenshot from '../Screenshots';
 
 class Features extends Component {
   render () {
@@ -46,7 +46,7 @@ class Features extends Component {
           </div>
         </div>
         <Widgets />
-        <Screenshots />
+        <Screenshot />
       </div>
     );
   }
